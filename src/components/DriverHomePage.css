@@ -1,0 +1,100 @@
+/* Full-page container styling */
+.driver-home-container {
+    padding: 20px;
+    background: linear-gradient(to bottom, #f0f0f0, #ffffff);
+    min-height: 100vh;
+  }
+  
+  /* Header styling */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .welcome-textdh {
+    font-size: 1.8rem;
+    color: #333;
+    margin-right: 20px;
+  }
+  
+  .quick-auto-icondh {
+    width: 100px;
+    margin-right: 150px;
+  }
+  
+  .profile-icon {
+    width: 40px;
+    cursor: pointer;
+  }
+  
+  /* Ride section styling */
+  .ride-section {
+    margin-bottom: 30px;
+  }
+  
+  .ride-section h2 {
+    font-size: 1.5rem;
+    color: #444;
+    margin-bottom: 10px;
+  }
+  
+  .no-rides-message {
+    color: #888;
+    font-size: 1rem;
+    font-style: italic;
+  }
+  
+  /* Ride offer styling */
+  .ride-offer {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ride-offer p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  .cancelled-message {
+    color: #dc3545;
+    font-weight: bold;
+  }
+  
+  /* Ride actions styling */
+  .ride-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .accept-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .reject-button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .accept-button:hover, .reject-button:hover {
+    opacity: 0.8;
+  }
+  

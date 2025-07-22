@@ -1,0 +1,101 @@
+/* Full-screen container */
+.profile-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(to bottom, #007bff, #ffffff);
+    min-height: 100vh;
+    box-sizing: border-box;
+  }
+
+      /* Top right logo for navigation */
+      .toph-logo {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        width: 50px;
+        cursor: pointer;
+      }
+  
+  /* Profile Box at the Top */
+  .profile-box {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 30px;
+    width: 90%;
+    max-width: 500px;
+  }
+  
+  .profile-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .profile-details h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .profile-details p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  /* Buttons Section */
+  .buttons-section {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 90%;
+    max-width: 400px;
+  }
+  
+  .profile-button {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    color: #333;
+    text-align: left;
+    transition: background-color 0.3s;
+  }
+  
+  .profile-button:hover {
+    background-color: #e9ecef;
+  }
+  
+  .button-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  .logout {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  .logout:hover {
+    background-color: #c82333;
+  }
+  
+  /* Quick Auto Logo at the Bottom */
+  .quickauto-logo {
+    margin-top: 40px;
+    width: 100px;
+    cursor: pointer;
+  }
+  

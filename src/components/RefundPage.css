@@ -1,0 +1,100 @@
+/* Full-screen container with gradient background */
+.refund-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background: linear-gradient(to bottom, #007bff, #ffffff);
+    padding-top: 0; /* Ensure it starts from the top */
+    margin-top: 0; /* Remove any default margin */
+    box-sizing: border-box;
+}
+  
+/* Top right logo for navigation */
+.top-logo {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 50px;
+    cursor: pointer;
+}
+  
+/* Refund content */
+.refund-content {
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+    padding: 30px;
+    margin-top: 400px;
+    border-radius: 10px;
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+    z-index: 1;
+    box-sizing: border-box;
+}
+  
+.refund-content h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #333;
+}
+  
+/* Form group */
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+  
+.form-group label {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 5px;
+    display: block;
+}
+  
+/* Text inputs, email inputs, number inputs, and file input styling */
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="number"],
+.form-group input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+  
+/* Radio button alignment for reason options */
+.reason-options {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+  
+.reason-options label {
+    display: inline-flex;
+    align-items: center;
+    font-size: 1rem;
+    margin-top: 5px;
+    cursor: pointer;
+    gap: 8px; /* Adds space between the radio button and label text */
+}
+  
+/* Submit button */
+.submit-button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+.submit-button:hover {
+    background-color: #0056b3;
+}

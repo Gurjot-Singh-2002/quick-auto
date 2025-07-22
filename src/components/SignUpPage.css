@@ -1,0 +1,112 @@
+/* Main container */
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #bfffff, #f2ff81);; /* Light background color */
+    padding: 20px;
+  }
+  
+  /* Logo Container */
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 20px;
+  }
+  
+  .app-logo {
+    width: 100px; /* Adjust as needed */
+    height: auto;
+  }
+  
+  /* Sign Up Content */
+  .signup-content {
+    width: 100%;
+    max-width: 400px;
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+    padding: 30px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  /* Form Groups */
+  .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .form-group label {
+    font-size: 1rem;
+    font-style: italic;
+    color: #333333;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+  }
+  
+  /* Sign Up Button */
+  .signup-button {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #007BFF; /* Button color */
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .signup-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Login Text */
+  .login-text {
+    font-size: 0.9rem;
+    color: #333333;
+    margin-top: 15px;
+  }
+  
+  .login-link {
+    color: #007BFF;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .login-link:hover {
+    text-decoration: underline;
+  }
+  
+  .form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="password"],
+.form-group input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+  background-color: #f0f8ff; /* Light blue background color */
+  color: #333333; /* Text color */
+}
+
+/* Add focus effect to input fields */
+.form-group input:focus {
+  background-color: #e0f0ff; /* Lighter background on focus */
+  border-color: #007BFF; /* Border color changes on focus */
+  outline: none; /* Remove default outline */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Optional box-shadow for focus effect */
+}

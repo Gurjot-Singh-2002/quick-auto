@@ -1,0 +1,14 @@
+/* Back to Welcome icon styling */
+.back-to-welcome {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    z-index: 1000; /* Ensure it appears above other content */
+  }
+  
+  .back-icon {
+    width: 60px; /* Adjust size as needed */
+    height: 60px;
+  }
+  
