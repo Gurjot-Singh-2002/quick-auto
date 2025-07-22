@@ -30,8 +30,8 @@ Quick Auto allows students to book e-rickshaws instantly or in advance, reducing
 
 ##  Technologies Used
 
-- HTML, CSS, JavaScript  
-- Diagrams: Flowchart & Sequence Diagram (PNG assets)
+- HTML, CSS, JavaScript, React, Firebase
+- Diagrams: Flowchart & Sequence Diagrams
 
 ---
 
